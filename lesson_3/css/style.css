@@ -1,0 +1,43 @@
+ /* @import url('reset.css'); */
+
+.menu a{
+	color:rgb(25, 50, 29)
+}
+
+h1 {
+	color:red
+}
+.advintel {
+	color:brown
+}
+.list > li {
+	color:blue
+}
+.list > li > ul {
+	color: red;
+}
+
+.text__pay + p {
+	color: green;
+}
+
+.text ~ a {
+	color: darkorange;
+	}
+	
+#residence {
+	color: blueviolet;
+}
+blockquote.advice {
+	color:brown
+}
+.text .low {
+	color: blue;
+}
+mark {
+	color: red;
+}
+
+[class*="taxes"] {
+	color: rgb(132, 255, 0);
+}
