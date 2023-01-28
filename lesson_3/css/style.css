@@ -1,0 +1,23 @@
+ @import url('reset.css');
+
+.menu a{
+	color:rgb(198, 69, 138)
+};
+
+content #p-1 {
+	color:red
+};
+
+.text > p {
+	color: brown;
+};
+
+.text .advice {
+	color: aqua;
+};
+.advintel {
+	color: red;
+}
+.footer a{
+	color: blue;
+}
