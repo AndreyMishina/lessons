@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,700&display=swap'); 
+@import url('https://fonts.googleapis.com/css?family=Inter:500,600,700&display=swap');
+@import url('reset.css');
+
+body {
+	font-size: 16px;
+
+}
+
+[class*="__container"] {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.content__vence {
+	background-image: url('../img/1.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding-top: 330px;
+	padding-bottom: 100px;
+	font-family: 'Poppins';
+}
+
+.content__date {
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 1.66; /* 20/12 */
+	color: #E5E5E5;
+	padding-bottom: 15px ;
+}
+
+.content__title {
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 1.6; /* 40/25 */
+	color: #F8F9FA;
+	padding-bottom: 15px;
+}
+
+.content__subtitle {
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 1.66; /* 20/12 */
+	color: #E5E5E5;
+}
+[class*="list__"] {
+	margin-bottom: 45px;
+	font-weight: 700;
+}
+.content__kontainer-list {
+	max-width: 2400px;
+	margin: 0 auto;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.content__list {
+	font-family: 'Inter';
+	font-weight: 500;
+	padding-top: 100px;
+	background-color: rgba(232, 234, 228, 0.539);
+}
+
+.list__name {
+	font-size: 26px;
+	line-height: 1.07; /* 28/26 */
+	color: #212B36;
+	margin-bottom: 45px;
+}
+
+.list__dot li {
+	background-image: url('../img/png/Ellipse.png');
+	background-position: 0 4px;
+	background-repeat: no-repeat;
+	padding-left: 15px;
+	padding-bottom: 5px;
+	margin-bottom: 18px;
+}
+
+.list__cross li {
+	background-image: url('../img/png/cross-circle.png');
+	background-repeat: no-repeat;
+	padding-left: 30px;
+	padding-top: 2px;
+	padding-bottom: 5px;
+	margin-bottom: 18px;
+}
+
+.list__tick li {
+	background-image: url('../img/png/checkmark-circle.png');
+	background-repeat: no-repeat;
+	padding-left: 30px;
+	padding-top: 2px;
+	padding-bottom: 5px;
+	margin-bottom: 18px;
+}
+
+.list__arrowhead li{
+	background-image: url('../img/png/arrow-right.png');
+	background-repeat: no-repeat;
+	padding-left: 30px;
+	padding-top: 2px;
+	padding-bottom: 5px;
+	margin-bottom: 18px;
+}
+
+.list__green-tick li{
+	background-image: url('../img/png/checkmark-circle-green.png');
+	background-repeat: no-repeat;
+	padding-left: 30px;
+	padding-top: 2px;
+	padding-bottom: 5px;
+	margin-bottom: 18px;	
+}
+
+.list__star li{
+	background-image: url('../img/png/star.png');
+	background-repeat: no-repeat;
+	padding-left: 30px;
+	padding-top: 2px;
+	padding-bottom: 5px;
+	margin-bottom: 18px;
+}
+.list__star {
+	padding-bottom: 18  px;
+}
+
+.content__sound {
+	background: linear-gradient(118deg, rgba(244,247,255,0) 60%, rgba(48,86,211,0.08) 60%, rgba(244,247,255,0) 100%), linear-gradient(118deg, rgba(244,247,255,0) 64%, rgba(48,86,211,0.08) 64%, rgba(244,247,255,0) 100%) #F4F7FF;
+	font-family: 'Inter';
+	margin-bottom: 40px;
+}
+
+.content__block-text {
+	display: inline-block;
+	padding-top: 145px;
+	max-width: 570px;
+	margin-right: 180px;
+}
+
+.block-text__price {
+	font-style: normal;
+	color: #3056D3;
+	margin-bottom: 10px;
+}
+
+.block-text__title {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 45px;
+	color: #212B36;
+	margin-bottom: 15px;
+}
+
+.block-text__subtitle {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #637381;
+	margin-bottom: 35px;	
+}
+
+.block-text__button {
+	display: inline-block;
+	background-color: #3056D3;
+	border-radius: 30px;
+	padding: 10px 30px;
+}
+.block-text__button a {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 24px;
+	color: #FFFFFF;
+}
+
+.content__image {
+	display: inline;
+}
+
+.sound-image {
+	max-width: 100%;
+	padding: 80px 0;
+}
+/* ------------------------------training------------------ */
+
+.content__training {
+	padding: 50px 50px;
+	 background:url('../img/4.jpg') bottom / 40% 20% no-repeat fixed, hsla(225, 21%, 50%, 0.289) url('../img/3.jpg') center /  cover no-repeat fixed;
+}
+.content_block {
+	padding: 100px 100px;
+	background: rgba(192, 196, 199, 0.493) linear-gradient(180deg, rgba(0,0,0,0.3179824561403509) 0%, rgba(23,37,47,0.3533788515406162) 29%, rgba(0,0,0,0.5153508771929824) 37%);
+}
