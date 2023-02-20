@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,700&display=swap'); 
+@import url('https://fonts.googleapis.com/css?family=Inter:500,600,700&display=swap');
+@import url('reset.css');
+
+body {
+	font-size: 16px;
+	font-family: 'Poppins';
+
+}
+
+[class*="__container"] {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.main__header {
+	background-image: url('../img/1.jpeg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 330px 0 100px 0px;
+}
+
+.header__date {
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 1.66; /* 20/12 */
+	color: #E5E5E5;
+	margin-bottom: 15px ;
+}
+
+.header__title {
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 1.6; /* 40/25 */
+	color: #F8F9FA;
+	margin-bottom: 15px;
+	max-width: 605px;
+}
+
+.header__title:hover {
+	font-size: 28px;
+	text-decoration: underline;
+}
+
+.header__subtitle {
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 1.66; /* 20/12 */
+	color: #E5E5E5;
+	max-width: 350px;
+}
+
+.container2 {
+	max-width: 800px;
+}
+.main__lists {
+	background-color: rgba(99, 115, 129, 0.227);
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.lists__body > ul {
+	margin-bottom: 45px;
+}
+.lists__body li:not(:last-child) {
+	margin-bottom: 15px;
+}
+.lists__body li {
+margin-left: 30px;
+}
+
+.lists__body > *:last-child {
+	margin-bottom: 0;
+}
+
+.list__title {
+	display: inline-block;
+	font-size: 26px;
+	line-height: 1.07; /* 28/26 */
+	color: #212B36;
+	margin-bottom: 45px;
+	margin-left: 30px;
+}
+.list__title::after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 2px;
+	background-color: rgb(35, 27, 27);
+}
+
+.lists__list-dot li::before {
+	content: "" url('../img/svg/Ellipse.svg');
+	background-size: 20px 29px;
+	margin-right: 10px;
+	margin-left: -18px;
+}
+
+.lists__list-cross li::before {
+	content: "" url('../img/svg/cross-circle.svg');
+	margin-right: 10px;
+	vertical-align: middle;
+	margin-left: -30px;
+}
+.lists__list-cross li:nth-child(odd)::after {
+	display:  inline-block;
+	content: "";
+	margin-left: 3px;
+	width: 2%;
+	vertical-align: middle;
+	height: 2px;
+	background-color: rgba(176, 51, 16, 0.895);
+}
+.lists__list-tick li::before{
+	content: "" url('../img/svg/checkmark-circle.svg');
+	margin-right: 10px;
+	vertical-align: middle;
+	margin-left: -30px;
+}
+
+
+.lists__list-arrowhead li::before {
+	content: "" url('../img/svg/arrow-right.svg');
+	margin-right: 10px;
+	vertical-align: middle;
+	margin-left: -30px;
+}
+
+.lists__green-tick li::before {
+	content: "" url('../img/svg/checkmark-circle-green.svg');
+	margin-right: 10px;
+	vertical-align: middle;
+	margin-left: -30px;
+}
+
+.lists__list-star li::before {
+	content: "" url('../img/svg/star.svg');
+	margin-right: 10px;
+	vertical-align: middle;
+	margin-left: -30px;
+}
+
+.main__sound {
+	background: url('../img/linear.svg') 100% 0 no-repeat;
+	background-size: contain;
+	background-color: #F4F7FF;
+	font-family: 'Inter';
+	padding-top: 145px;
+	padding-bottom: 80px;
+}
+
+.main__text *:last-child {
+	margin-bottom: 0;
+}
+.main__text {
+	display: inline-block;
+	max-width: 570px;
+	margin-right: 185px;
+	vertical-align: middle;
+}
+
+.text__price {
+	font-style: normal;
+	color: #3056D3;
+	margin-bottom: 10px;
+}
+
+.text__title {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 45px;
+	color: #212B36;
+	margin-bottom: 15px;
+}
+
+.text__title::after {
+	content: "";
+	display: block;
+	width: 70%;
+	height: 3px;
+	background-color: rgba(0, 0, 0, 0.476);
+}
+
+.text__subtitle {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #637381;
+	margin-bottom: 35px;	
+}
+
+.text__button {
+	display: inline-block;
+	background-color: #3056D3;
+	border-radius: 30px;
+	padding: 10px 30px;
+	color: #FFFFFF;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	box-shadow: 0 5px 0 0 #000;
+	margin-bottom: 20px;
+	position: relative;
+	top: 0;
+	transition: all 0.3s;
+}
+
+.text__button:hover {
+	top: 3px;
+	box-shadow: 0 2px 0 0 #000;
+	color: aqua;
+}
+
+.main__image {
+	display: inline-block;
+}
+.image__speaker {
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+
