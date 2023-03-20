@@ -67,9 +67,9 @@ body {
 	 margin-bottom: 100px;
 }
 .top-image img{
-	transition: scale, 0.6s;
+	transition: scale, 0.6s linear;
 }
-.top-image img:hover{
+.top-image:hover img{
 	transform: scale(1.04);
 }
 .content-details__text-block {
@@ -88,12 +88,13 @@ body {
 	display: inline-block;
 }
 .title{
-	transition: all, 0.6s;
+	transition: all 0.3s linear;
 }
 .title:hover{
 	text-decoration: underline;
-	transform: scale(1.02);
+	transform: scale(1.01);
 }
+
 .left__text {
 	flex-grow: 1;
 }
@@ -104,9 +105,9 @@ body {
 }
 
 .bottom-left__furnitur {
-	transition: 0.4s;
+	transition: all 0.3s linear;
 }
-.bottom-left__furnitur:hover {
+.bottom-left:hover .bottom-left__furnitur {
 	transform: scale(1.04);
 	text-decoration: underline;
 	color: #333333;
@@ -132,11 +133,11 @@ padding: 0 15px;
 }
 
 .gallery__item img {
-	max-width: 100%;	
-	transition: all, 0.8s;
+	max-width: 100%;
+	transition: transform 0.6s linear;
 	
 }
-.gallery__item img:hover{
+.gallery__item:hover img{
 	transform: scale(1.04);
 }
 /* ===============services================== */
